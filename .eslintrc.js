@@ -20,9 +20,11 @@ module.exports = {
   'rules': {
     'no-unused-vars': 'off',
     'vue/multi-word-component-names': 0,
-    'comma-spacing': ['error', { before: false, after: true }],
+    'vue/no-deprecated-slot-attribute': 'off',
+    'vue/no-multi-spaces': 1,
+    'indent': ['error', 2],
     'semi': ['error', 'always'],
     'quotes': ['error', 'single'],
-    'indent': ['error', 2],
+    'comma-spacing': ['error', { before: false, after: true }]
   }
 };

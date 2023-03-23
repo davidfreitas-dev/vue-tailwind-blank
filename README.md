@@ -13,10 +13,25 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 Paste on settings.json VS Code file 
 
 ```sh
-"editor.formatOnSave": true,
+"editor.formatOnSave": false,
 "editor.codeActionsOnSave": {
   "source.fixAll.eslint": true
-}
+},
+"javascript.format.enable": false,
+"files.autoSave": "onFocusChange",
+"eslint.options": {
+  "extensions": [
+    ".html",
+    ".js",
+    ".vue",
+    ".jsx"
+  ]
+},
+"eslint.validate": [
+  "html",
+  "javascript",
+  "vue"
+],
 ```
 
 ## Project Setup
