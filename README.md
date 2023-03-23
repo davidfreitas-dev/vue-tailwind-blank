@@ -1,14 +1,23 @@
 # blank-project
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started developing with Vue 3 in Vite (Tailwind CSS + ESLint).
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss) + [Error Lens](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens) + [Error Gutters](https://marketplace.visualstudio.com/items?itemName=IgorSbitnev.error-gutters).
 
 ## Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
+
+Paste on settings.json VS Code file 
+
+```sh
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true
+}
+```
 
 ## Project Setup
 
