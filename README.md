@@ -16,22 +16,7 @@ Paste on settings.json VS Code file
 "editor.formatOnSave": false,
 "editor.codeActionsOnSave": {
   "source.fixAll.eslint": true
-},
-"javascript.format.enable": false,
-"files.autoSave": "onFocusChange",
-"eslint.options": {
-  "extensions": [
-    ".html",
-    ".js",
-    ".vue",
-    ".jsx"
-  ]
-},
-"eslint.validate": [
-  "html",
-  "javascript",
-  "vue"
-],
+}
 ```
 
 ## Project Setup
