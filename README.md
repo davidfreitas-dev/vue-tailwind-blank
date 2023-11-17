@@ -19,6 +19,10 @@ Paste on settings.json VS Code file
 }
 ```
 
+## Set Enviroment Variables
+
+Create a .env file from .env.example and set variables with your firebase app credentials.
+
 ## Project Setup
 
 ```sh

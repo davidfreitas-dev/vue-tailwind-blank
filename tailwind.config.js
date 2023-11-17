@@ -9,14 +9,16 @@ delete colors['coolGray'];
 delete colors['blueGray'];
 
 module.exports = {
-  'content': [
+  content: [
     './index.html',
     './src/**/*.{vue,js}',
   ],
   theme: {
     extend: {},
     colors: {
-      ...colors
+      ...colors,
+      'brand-hover': '#66c090',
+      brand: '#55b984',
     }
   },
   plugins: [],
